@@ -18,10 +18,10 @@ public enum Aylar {
     int days;
 
     /*
-    22-24 komut blogu atama yapildiginda run olur.
+    25-28 satirlar arasindaki komut blogu atama yapildiginda run olur.
     Aylar(int gunMiktari){days=gunMiktari;}
+    */
 
-     */
     Aylar(int gunMiktari){
 
         days=gunMiktari;
@@ -29,7 +29,7 @@ public enum Aylar {
 
     void getGunMiktari(){
 
-        System.out.println("gun miktari :"+days);
+        System.out.println("Gun Sayisi : "+days);
     }
 
 }
