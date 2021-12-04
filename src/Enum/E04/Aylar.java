@@ -17,11 +17,6 @@ public enum Aylar {
 
     int days;
 
-    /*
-    25-28 satirlar arasindaki komut blogu atama yapildiginda run olur.
-    Aylar(int gunMiktari){days=gunMiktari;}
-    */
-
     Aylar(int gunMiktari){
 
         days=gunMiktari;
@@ -32,4 +27,10 @@ public enum Aylar {
         System.out.println("Gun Sayisi : "+days);
     }
 
+    /*
+    20-23 satirlar arasindaki komut blogu atama yapildiginda run olur.
+    Aylar (int gunMiktari) {
+    days=gunMiktari;
+    }
+    */
 }
