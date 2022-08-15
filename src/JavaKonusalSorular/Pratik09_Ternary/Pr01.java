@@ -1,4 +1,4 @@
-package CoreJavaDay50.day08_ternaryOperator;
+package JavaKonusalSorular.Pratik09_Ternary;
 
 public class Pr01 {
 
