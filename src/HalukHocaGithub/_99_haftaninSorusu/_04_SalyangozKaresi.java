@@ -35,11 +35,11 @@ public class _04_SalyangozKaresi {
         int value = 1;
         int minSutun = 0;
         int maxSutun = n - 1;
-        int minSatır = 0;
+        int minSatir = 0;
         int maxSatir = n - 1;
         while (value <= n * n) {
-            for (int i = minSatır; i <= maxSatir; i++) {
-                arr[minSatır][i] = value;
+            for (int i = minSatir; i <= maxSatir; i++) {
+                arr[minSatir][i] = value;
                 value++;
             }
             for (int i = minSutun + 1; i <= maxSutun; i++) {
@@ -50,12 +50,12 @@ public class _04_SalyangozKaresi {
                 arr[maxSutun][i] = value;
                 value++;
             }
-            for (int i = maxSatir - 1; i >= minSatır + 1; i--) {
-                arr[i][minSatır] = value;
+            for (int i = maxSatir - 1; i >= minSatir + 1; i--) {
+                arr[i][minSatir] = value;
                 value++;
             }
             minSutun++;
-            minSatır++;
+            minSatir++;
             maxSutun--;
             maxSatir--;
         }

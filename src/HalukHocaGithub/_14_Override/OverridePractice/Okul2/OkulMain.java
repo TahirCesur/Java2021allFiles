@@ -5,8 +5,8 @@ public class OkulMain {
 
         Okul okul = new Okul("TechnoStudy", 100);
 
-        Ogrenci ogr1 = new Ogrenci("Deniz", "izmir", okul, UyeTipi.OGRENCİ, 5000);
-        Ogrenci ogr2 = new Ogrenci("Derya", "Aydın", okul, UyeTipi.OGRENCİ, 6000);
+        Ogrenci ogr1 = new Ogrenci("Deniz", "izmir", okul, UyeTipi.OGRENCI, 5000);
+        Ogrenci ogr2 = new Ogrenci("Derya", "Aydın", okul, UyeTipi.OGRENCI, 6000);
 
         Calisan cal1 = new Calisan("Haluk", "İstanbul", okul, UyeTipi.CALISAN, 9000);
         Calisan cal2 = new Calisan("İpek", "İstanbul", okul, UyeTipi.CALISAN, 8000);

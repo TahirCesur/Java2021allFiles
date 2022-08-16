@@ -41,17 +41,17 @@ public class QMarket {
 			gun++;//0 1 2 3 4 5 6 .günleri çağırdım.
 		}
 		getOrtalamaKazanc();
-		getOrtalamaninUstundeKazancGünleri();
-		getOrtalamaninAltindaKazancGünleri();
+		getOrtalamaninUstundeKazancGunleri();
+		getOrtalamaninAltindaKazancGunleri();
 
 		System.out.println("günlükkazanclar : " + gunlukKazanclar);
 		System.out.println("ciro  : " + ciro);
 		System.out.println("ortalama kazanç : " + getOrtalamaKazanc());
-		System.out.println("ortalamanın üstündeki gün : " + getOrtalamaninUstundeKazancGünleri());
-		System.out.println("ortalamanın altındaki gün : " + getOrtalamaninAltindaKazancGünleri());
+		System.out.println("ortalamanın üstündeki gün : " + getOrtalamaninUstundeKazancGunleri());
+		System.out.println("ortalamanın altındaki gün : " + getOrtalamaninAltindaKazancGunleri());
 	}
 
-	private static String getOrtalamaninAltindaKazancGünleri() {//6. adım
+	private static String getOrtalamaninAltindaKazancGunleri() {//6. adım
 		String ortAltGun = "";
 		for (int i = 0; i < gunlukKazanclar.size(); i++) {
 			if (gunlukKazanclar.get(i) < getOrtalamaKazanc()) {
@@ -60,7 +60,7 @@ public class QMarket {
 		}
 		return ortAltGun;
 	}
-	private static String getOrtalamaninUstundeKazancGünleri() {//5.adım
+	private static String getOrtalamaninUstundeKazancGunleri() {//5.adım
 		String ortUstGun = "";
 		for (int i = 0; i < gunlukKazanclar.size(); i++) {
 			if (gunlukKazanclar.get(i) > getOrtalamaKazanc()) {

@@ -2,8 +2,8 @@ package HalukHocaGithub._12_Encapsulation.Ex1;
 
 public class AdemOglu {
     //instace veriable class levelde craete edilir. property field attribute de denir
-    String adı;
-    String soyadı;
+    String adi;
+    String soyadi;
     private int yas;//yas verisini isteidğim şartlarda kullanması için private yaparak koruma altına aldım ve kullanım şartlarını ben vereiyorum.
 
     //private değişkene ulaşmak için method yazılmalı
