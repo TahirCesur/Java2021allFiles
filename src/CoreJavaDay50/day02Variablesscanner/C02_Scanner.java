@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class C02_Scanner {
 
 	public static void main(String[] args) {
+
 		
 		// Kullanicidan iki tamsayi alip bu sayilarin toplam,fark ve carpimlarini yazdirin
 		
@@ -13,7 +14,7 @@ public class C02_Scanner {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		// 2- kullanicadan ne istedigimiz yazdiralim
+		// 2- kullanicadan ne istedigimizi yazdiralim
 		
 		System.out.println("Lutfen iki tamsayi giriniz");
 		
